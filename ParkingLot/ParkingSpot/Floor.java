@@ -14,7 +14,7 @@ public class Floor {
         for(int i=0; i<bikeSpots; i++){
             this.parkingSpots.add(new BikeSpot(floorNumber, count++));
         }
-        for(int i=0; i<carSpots; i++){
+        for(int  i=0; i<carSpots; i++){
             this.parkingSpots.add(new CarSpot(floorNumber, count++));
         }
         for(int i=0; i<truckSpots; i++){
